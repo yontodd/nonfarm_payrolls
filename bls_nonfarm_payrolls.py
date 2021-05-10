@@ -8,8 +8,6 @@ import pandas as pd
 import numpy as np
 import requests
 
-bls_api_key = "8dcad880a4ed4d939485e95f5995cc18"
-
 report_series = "CES0000000001" # Total nonfarm employment
 base_url = 'https://api.bls.gov/publicAPI/v1/timeseries/data/'
 series = {'id':report_series,
