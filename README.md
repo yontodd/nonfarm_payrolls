@@ -2,7 +2,7 @@
 
 Uses the Bureau of Labor Statistics (BLS) API, pulls the most recent month's Nonfarm Payrolls report.
 
-Most recent update - May 10, 2021
+Latest update - May 10, 2021
 
 ## Inputs:
 - Prior two months of headline data - to calculate revisions from most recent report
@@ -12,7 +12,7 @@ Most recent update - May 10, 2021
 - Table of most recent 12 months data (set in DataFrame)
 - Text update from report:
   - Headline payrolls number and how it compared to consensus estimates
-  - Revisions for prior two months 
+  - Revisions for prior two months
 
 ## To-dos:
 - Update with other key data from the payrolls report, including:

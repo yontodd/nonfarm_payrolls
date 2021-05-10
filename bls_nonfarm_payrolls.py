@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-"""BLS - Nonfarm payrolls.ipynb
-
+"""
 # Monthly Nonfarm Payrolls Data
 """
 
@@ -83,7 +82,7 @@ def revision_statement(prior1, prior2):
     print("{} was revised down {}K to {}K".format(payrolls["periodName"][1], abs((payrolls_rev2 - prior2)), payrolls_rev2))
   elif payrolls_rev2 - prior2 == 0:
     print("{} was unrevised at {}K".format(payrolls["periodName"][1], payrolls_rev1))
-  
+
   if total_revision > 0:
     print("Prior two months were revised up {}K".format(abs(total_revision)))
   elif total_revision <0:
