@@ -1,3 +1,6 @@
+# Install pandas datareader
+pip install pandas_datareader
+
 # Data libraries
 import pandas_datareader as pdr
 import datetime
